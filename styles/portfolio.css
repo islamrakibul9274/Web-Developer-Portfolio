@@ -1,5 +1,9 @@
 /* nav related styles */
 /* common shared font styles */
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+}
 body{
 
     font-family: "lato", sans-serif;
@@ -22,7 +26,6 @@ nav{
 }
 nav > ul{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 nav li{
@@ -46,14 +49,36 @@ nav a{
 /* Header Related styles */
 
 .header{
-    background-color:#FFF8F3
+    background-color:#FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat:  no-repeat;
+    background-position: bottom right;
+   
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-picture{
     height: 500px;
 }
+.banner-greeting{
+    font-size: 40px;
+    color: #474747;
+    margin: 5px;
+}
+.banner-title{
+    font-size: 75px;
+    font-weight: 700;
+    margin: 5px 0px 5px 0;
+}
+.banner-description{
+    margin: 10px 0px 20px 0px;
+}
+
+/* Main section */
