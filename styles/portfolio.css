@@ -84,7 +84,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+main section{
+    margin-top: 130px;
+}
 
 /* About Section styles */
 .about{
@@ -111,4 +113,57 @@ main{
 }
 .about-info{
     text-align: center;
+}
+.profession{
+    margin: 130px 0;
+    padding:0 130px;
+}
+
+/* skills related styles */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.3);
+}
+.skill-description{
+    color: #757575;
+    font-size: 18px;
+}
+
+/* Resume section styles */
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.resume-item-description,.resume-item-institute{
+    color: #757575;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
